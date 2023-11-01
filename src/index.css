@@ -1,0 +1,33 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  background-color: #000000;
+  background-image: url('https://static.tildacdn.com/tild3462-6631-4433-b833-613361383263/Fotolia_81712611_Sub.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+/* ul {
+  list-style: none;
+} */
+
