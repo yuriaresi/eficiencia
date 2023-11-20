@@ -1,27 +1,34 @@
-# React + TypeScript + Vite
+# Grupo Eficiência - Página Principal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto React que apresenta um grupo eficiente de colaboradores em uma equipe, destacando suas capacidades e habilidades por meio de botões que direcionam para os perfis individuais de cada membro.
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A página principal destaca a eficiência do grupo de trabalho, exibindo informações sobre as características positivas demonstradas durante a colaboração. Também inclui botões com links para os perfis individuais dos membros da equipe.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- React Router DOM
 
-- Configure the top-level `parserOptions` property like this:
+## Funcionalidades
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- Exibição de texto descritivo sobre o grupo eficiente.
+- Botões com links para os perfis individuais dos membros.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Estrutura do Código
+
+- `components`: Contém os componentes utilizados na construção da página principal.
+- `pages`: Contém a página principal do aplicativo.
+
+## Utilização
+
+1. Clone este repositório em sua máquina local.
+2. Abra um terminal na pasta do projeto e execute `npm install` para instalar as dependências.
+3. Execute `npm start` para iniciar o servidor de desenvolvimento.
+4. Acesse o aplicativo no navegador através do link `http://localhost:3000`.
+
+## Autor
+
+Este projeto foi desenvolvido por [Yuri Aresi e outros colegas do curso](https://www.linkedin.com/in/yuriaresi/) como parte de um exercício prático.
+
